@@ -1,15 +1,12 @@
 {
   "name": "アレルギー記録",
-  "short_name": "アレ記録",
-  "description": "食物アレルギーの摂取記録・症状写真・保護者コミュニティを管理するPWA",
+  "short_name": "アレルギー記録",
   "start_url": "./index.html",
-  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#f7fbfa",
-  "theme_color": "#8fd3c7",
+  "background_color": "#f4fbf8",
+  "theme_color": "#8bd8c7",
   "icons": [
-    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png"}
   ]
 }
