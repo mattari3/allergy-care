@@ -1,4 +1,4 @@
-const CACHE_NAME = 'allergy-pwa-v1';
+const CACHE_NAME = 'allergy-pwa-v4';
 const ASSETS = ['./', './index.html', './styles.css', './script.js', './manifest.webmanifest', './assets/icon-192.png', './assets/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
